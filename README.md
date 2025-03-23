@@ -8,10 +8,6 @@ Este repositório contém um módulo Terraform para provisionar buckets S3 na AW
 - AWS CLI configurado
 - Credenciais da AWS com permissões adequadas
 
-## 📦 Estrutura do Repositório
-
-```
-
 ## ⚙️ Uso
 
 Clone este repositório e inicialize o Terraform:
