@@ -4,7 +4,7 @@ Este repositório contém um módulo Terraform para provisionar buckets S3 na AW
 
 ## 🚀 Requisitos
 
-- Terraform >= 1.0.0
+- Terraform
 - AWS CLI configurado
 - Credenciais da AWS com permissões adequadas
 
@@ -23,11 +23,11 @@ Edite o arquivo `terraform/environments/{ambiente}/terraform.tfvars` para defini
 ### Aplicar Configuração
 
 ```sh
-terraform apply -auto-approve
+terraform apply -var-file="environments/{ambiente}/terraform.tfvars" -auto-approve
 ```
 
 ### Destruir Recursos
 
 ```sh
-terraform destroy -auto-approve
+terraform destroy -var-file="environments/{ambiente}/terraform.tfvars" -auto-approve
 ```
