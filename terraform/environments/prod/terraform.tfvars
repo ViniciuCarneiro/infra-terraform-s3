@@ -1,5 +1,5 @@
-aws_region  = "regiao_da_aws"
-bucket_name = "nome_do_bucket"
+aws_region  = "us-east-1"
+bucket_name = "notifications-api-bucket-prod"
 
 tags = {
   Environment = "prod"
